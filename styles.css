@@ -24,7 +24,7 @@ article {
   align-items: center;
   gap: 1rem;
   padding: 2.5rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 footer a {
@@ -47,7 +47,7 @@ body {
 
 .link,
 .location {
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .bio {
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   font-weight: 300;
 }
 
@@ -88,23 +88,24 @@ article a {
 }
 
 footer {
-  flex-wrap: wrap;
+  text-wrap: wrap;
   text-align: center;
 }
 
-a h3 {
+a h2 {
   text-decoration: none;
   color: #ffffff;
 }
 
-a h3:hover,
-a h3:focus {
+a h2:hover,
+a h2:focus {
   color: #2e3b1d;
 }
 
 @media (max-width: 375.99px) {
   article{
-    min-width: 300px;
+    min-width: 290px;
     max-width: 325px;
+    width: 100%;
   }
 }
