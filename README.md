@@ -48,4 +48,4 @@ i learnned that it is better to wrap heading under anchor tag instead of placing
 
 ## Author
 
-- Frontend Mentor - [GraceRosario](#https://www.frontendmentor.io/profile/GraceRosario)
+- Frontend Mentor - [GraceRosario](https://www.frontendmentor.io/profile/GraceRosario)
