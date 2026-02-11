@@ -7,4 +7,81 @@
 html {
   background-color: black;
   color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+article {
+  background-color: #1f1f1f;
+  display: inline-block;
+  min-width: 350px;
+  max-width: 390px;
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2.5rem;
+}
+
+a {
+  color: cadetblue;
+}
+
+img {
+  max-width: 90px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link,
+.location {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.location {
+  color: #c4f82a;
+  margin-top: -0.5rem;
+}
+
+.bio {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.link {
+  background-color: #333333;
+  width: 100%;
+  text-align: center;
+  padding: 0.7rem 0;
+  border-radius: 5px;
+}
+
+.link:hover,
+.link:focus {
+  background-color: #c4f82a;
+  color: #2e3b1d;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+footer {
+  flex-wrap: wrap;
+  text-align: center;
 }
