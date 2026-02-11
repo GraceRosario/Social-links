@@ -24,9 +24,10 @@ article {
   align-items: center;
   gap: 1rem;
   padding: 2.5rem;
+  margin-top: 3rem;
 }
 
-a {
+footer a {
   color: cadetblue;
 }
 
@@ -66,11 +67,16 @@ body {
 }
 
 .link {
+  display: inline-block;
   background-color: #333333;
   width: 100%;
   text-align: center;
   padding: 0.7rem 0;
   border-radius: 5px;
+}
+
+article a {
+  width: 100%;
 }
 
 .link:hover,
@@ -85,3 +91,12 @@ footer {
   flex-wrap: wrap;
   text-align: center;
 }
+
+a h3 {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a h3:hover, a h3:focus {
+  color: #2e3b1d;
+} 
